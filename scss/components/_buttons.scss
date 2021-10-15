@@ -1,0 +1,41 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.btn-rounded {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+
+  position: relative;
+  padding: 0.9375rem 4.378rem 0.975rem 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem rgba($text, 0.6);
+  background-color: $text;
+
+  span {
+    position: absolute;
+    background-color: $prime_blue;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+
+    i {
+      color: $text;
+      font-size: 1rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  &:hover {
+    @include gradient;
+    color: $text;
+
+    span {
+      background-color: rgba($background, 0.6);
+    }
+  }
+}
