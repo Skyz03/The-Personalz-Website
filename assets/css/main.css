@@ -11162,6 +11162,9 @@ textarea.form-control-lg {
 
 .intro-section {
   background-color: #222831;
+  height: 100%;
+  width: 100%;
+  padding: 10rem 0 0 0;
 }
 .intro-section .subheading {
   font-family: "Roboto Mono", monospace;
@@ -11176,6 +11179,9 @@ textarea.form-control-lg {
   color: #00adb5;
   font-size: 3rem;
   font-weight: 700;
+}
+.intro-section h1:hover {
+  color: #eeeeee;
 }
 .intro-section h2 {
   font-family: "Roboto Mono", monospace;
