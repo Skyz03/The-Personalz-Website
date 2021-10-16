@@ -3,7 +3,7 @@
 @mixin gradient {
   background: linear-gradient(
     to right,
-    rgba($primary, 1),
-    rgba($secondary, 0.8)
+    rgba($background, 1),
+    rgba($prime_gray, 0.8)
   );
 }

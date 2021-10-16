@@ -1,0 +1,29 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.intro-section {
+  background-color: $background;
+
+  .subheading {
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: $text;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    color: $prime_blue;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: "Roboto Mono", monospace;
+    color: $text;
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}

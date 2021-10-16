@@ -15,9 +15,10 @@
 
   a {
     font-family: "Roboto Mono", monospace;
-    color: $text;
+    color: $prime_blue !important;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
+    letter-spacing: 1px;
 
     &:hover {
       border-bottom: 1px solid $text;
