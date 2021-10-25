@@ -1,3 +1,5 @@
+@use "../custom" as *;
+
 // This is the about image
 .about-img {
   width: 500px;
@@ -20,4 +22,14 @@ li span:first-child {
   font-weight: 600;
   color: #000;
   width: 170px;
+}
+
+span.number {
+  font-weight: 600;
+  color: $prime_blue;
+}
+
+.text span:nth-child(2) {
+  color: #000;
+  font-weight: 600;
 }

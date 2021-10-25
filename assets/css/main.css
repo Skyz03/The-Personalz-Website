@@ -11391,6 +11391,16 @@ li span:first-child {
   width: 170px;
 }
 
+span.number {
+  font-weight: 600;
+  color: #00adb5;
+}
+
+.text span:nth-child(2) {
+  color: #000;
+  font-weight: 600;
+}
+
 .brand_icon {
   font-family: "Akronim", cursive !important;
   font-size: 3rem;
