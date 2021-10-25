@@ -33,3 +33,13 @@ span.number {
   color: #000;
   font-weight: 600;
 }
+
+.btn {
+  cursor: pointer;
+  border-radius: 40px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
