@@ -11323,6 +11323,23 @@ textarea.form-control-lg {
   font-size: 3rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.5;
+  color: black;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 .intro-section {
   background-color: #222831;
   height: 100%;
@@ -11356,6 +11373,22 @@ textarea.form-control-lg {
 .about-img {
   width: 500px;
   height: 500px;
+  border-radius: 50%;
+}
+
+.heading-section h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+li span {
+  line-height: 2.5;
+}
+
+li span:first-child {
+  font-weight: 600;
+  color: #000;
+  width: 170px;
 }
 
 .brand_icon {

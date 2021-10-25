@@ -1,6 +1,13 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 .intro-section {
   background-color: $background;
   height: 100%;
