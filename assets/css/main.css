@@ -11411,6 +11411,32 @@ span.number {
   font-weight: 600;
 }
 
+.skill-section {
+  background-color: #222831;
+}
+.skill-section h2 {
+  text-transform: uppercase;
+}
+
+.skill-items {
+  padding: 2rem 2rem 5rem 2rem;
+}
+.skill-items .fa-html5 {
+  color: #d84924;
+}
+.skill-items .fa-css3 {
+  color: #4563da;
+}
+.skill-items .fa-js-square {
+  color: #ead41c;
+}
+.skill-items .fa-bootstrap {
+  color: #8138db;
+}
+.skill-items .fa-react {
+  color: #77d4f2;
+}
+
 .brand_icon {
   font-family: "Akronim", cursive !important;
   font-size: 3rem;

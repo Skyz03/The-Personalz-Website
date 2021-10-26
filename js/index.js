@@ -1,4 +1,3 @@
-const { Chart } = require("chart.js");
 
 const CHART = document.getElementById("myChart");
 

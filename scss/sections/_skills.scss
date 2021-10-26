@@ -1,0 +1,34 @@
+@use "../custom" as *;
+
+.skill-section {
+  background-color: $background;
+
+  h2 {
+    text-transform: uppercase;
+  }
+}
+
+// SKILL ITEMS
+.skill-items {
+  padding: 2rem 2rem 5rem 2rem;
+
+  .fa-html5 {
+    color: #d84924;
+  }
+
+  .fa-css3 {
+    color: #4563da;
+  }
+
+  .fa-js-square {
+    color: #ead41c;
+  }
+
+  .fa-bootstrap {
+    color: #8138db;
+  }
+
+  .fa-react {
+    color: #77d4f2;
+  }
+}
