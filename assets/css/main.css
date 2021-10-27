@@ -11437,6 +11437,17 @@ span.number {
   color: #77d4f2;
 }
 
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radar_chart {
+  height: 50%;
+  width: 50%;
+}
+
 .brand_icon {
   font-family: "Akronim", cursive !important;
   font-size: 3rem;

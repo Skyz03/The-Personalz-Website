@@ -1,5 +1,5 @@
 
-const CHART = document.getElementById("myChart");
+const CHART = document.getElementById("radar_chart");
 
 
 const data = {
