@@ -14,12 +14,16 @@ const data = {
     label: 'CODING SKILLS',
     data: [10, 10, 7, 7, 5],
     backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(75, 192, 192)',
-      'rgb(255, 205, 86)',
-      'rgb(201, 203, 207)',
-      'rgb(54, 162, 235)'
-    ]
+      '#d84924',
+      '#4563da',
+      '#ead41c',
+      '#8138db',
+      '#77d4f2'
+    ],
+    borderWidth: 3,
+    borderColor: '#777',
+    hoverBorderWidth: 5,
+    hoverBorderColor: '#000'
   }]
 };
 
