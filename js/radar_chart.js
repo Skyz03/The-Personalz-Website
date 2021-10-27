@@ -1,6 +1,9 @@
 
 const CHART = document.getElementById("radar_chart");
 
+// Chart.defaults.global.defaultFontFamily = 'Lato';
+// Chart.defaults.global.defaultFontSize = 18;
+// Chart.defaults.global.defaultFontColor = '#777';
 
 const data = {
   labels: [
@@ -11,7 +14,7 @@ const data = {
     'REACT'
   ],
   datasets: [{
-    label: 'CODING SKILLS',
+    labels: 'CODING SKILLS',
     data: [10, 10, 7, 7, 5],
     backgroundColor: [
       '#d84924',
@@ -20,9 +23,9 @@ const data = {
       '#8138db',
       '#77d4f2'
     ],
-    borderWidth: 3,
+    borderWidth: 2,
     borderColor: '#777',
-    hoverBorderWidth: 5,
+    hoverBorderWidth: 4,
     hoverBorderColor: '#000'
   }]
 };
@@ -31,5 +34,21 @@ const data = {
 let radar = new Chart(CHART, {
   type: 'polarArea',
   data: data,
-  options: {}
+  options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'My SkillSets',
+        font: {
+          size: 16,
+          family: 'Roboto Mono'
+        }
+      },
+      legend: {
+        display: true,
+        position: 'left',
+      }
+    }
+  }
 });
+
