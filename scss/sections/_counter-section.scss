@@ -1,0 +1,17 @@
+@use "../custom" as *;
+
+.counter-section {
+  &__box {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+
+  .number {
+    font-weight: 600;
+    font-size: 2rem;
+    display: block;
+    color: $background;
+  }
+}
