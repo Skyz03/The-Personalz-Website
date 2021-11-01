@@ -11280,6 +11280,12 @@ span.number {
   justify-content: center;
 }
 
+.resume-section {
+  padding: 7rem 0;
+  background-color: #222831;
+  color: #fff;
+}
+
 .brand_icon {
   font-family: "Akronim", cursive !important;
   font-size: 3rem;
