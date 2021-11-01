@@ -1,6 +1,50 @@
 @use "../custom" as *;
+
 .resume-section {
   padding: 7rem 0;
   background-color: $background;
   color: $white;
+
+  #navs {
+    position: sticky;
+    top: 130px;
+    margin: 0;
+
+    ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1rem;
+      margin-block-end: 1rem;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      padding-inline-start: 40px;
+
+      li {
+        font-weight: 700;
+        list-style: none;
+        margin-bottom: 10px;
+
+        a {
+          color: $white;
+
+          &::after {
+            position: absolute;
+            top: 50%;
+            left: -24px;
+            width: 20px;
+            height: 20px;
+            content: "";
+            transform: translateY(-50%);
+            background: $prime_blue;
+          }
+        }
+
+        a.current {
+          color: $prime_blue;
+          margin-left: 1.3rem;
+          position: relative;
+        }
+      }
+    }
+  }
 }

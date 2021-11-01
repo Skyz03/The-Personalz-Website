@@ -11285,6 +11285,43 @@ span.number {
   background-color: #222831;
   color: #fff;
 }
+.resume-section #navs {
+  position: sticky;
+  top: 130px;
+  margin: 0;
+}
+.resume-section #navs ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+.resume-section #navs ul li {
+  font-weight: 700;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.resume-section #navs ul li a {
+  color: #fff;
+}
+.resume-section #navs ul li a::after {
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transform: translateY(-50%);
+  background: #00adb5;
+}
+.resume-section #navs ul li a.current {
+  color: #00adb5;
+  margin-left: 1.3rem;
+  position: relative;
+}
 
 .brand_icon {
   font-family: "Akronim", cursive !important;
