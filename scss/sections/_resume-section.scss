@@ -26,6 +26,12 @@
 
         a {
           color: $white;
+        }
+
+        a.current {
+          color: $prime_blue;
+          margin-left: 1.3rem;
+          position: relative;
 
           &::after {
             position: absolute;
@@ -37,12 +43,6 @@
             transform: translateY(-50%);
             background: $prime_blue;
           }
-        }
-
-        a.current {
-          color: $prime_blue;
-          margin-left: 1.3rem;
-          position: relative;
         }
       }
     }

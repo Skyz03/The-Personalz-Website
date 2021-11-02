@@ -11307,7 +11307,12 @@ span.number {
 .resume-section #navs ul li a {
   color: #fff;
 }
-.resume-section #navs ul li a::after {
+.resume-section #navs ul li a.current {
+  color: #00adb5;
+  margin-left: 1.3rem;
+  position: relative;
+}
+.resume-section #navs ul li a.current::after {
   position: absolute;
   top: 50%;
   left: -24px;
@@ -11316,11 +11321,6 @@ span.number {
   content: "";
   transform: translateY(-50%);
   background: #00adb5;
-}
-.resume-section #navs ul li a.current {
-  color: #00adb5;
-  margin-left: 1.3rem;
-  position: relative;
 }
 
 .brand_icon {
