@@ -46,7 +46,7 @@ let radar = new Chart(CHART, {
       },
       legend: {
         display: true,
-        position: 'left',
+        position: 'top',
       }
     }
   }

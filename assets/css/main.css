@@ -11365,6 +11365,9 @@ span.number {
   font-weight: 700;
   color: #00adb5;
 }
+.text p {
+  opacity: 0.7;
+}
 .text .position {
   font-weight: 700;
   font-size: 1.1rem;
