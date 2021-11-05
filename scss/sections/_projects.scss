@@ -1,0 +1,21 @@
+@use "../custom" as *;
+
+.projects-section {
+  background-color: $background;
+
+  h2 {
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  p {
+    color: $white;
+  }
+}
+
+.project_container {
+  padding: 1rem;
+  background-color: $project_box_two;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px $gray-700;
+}
