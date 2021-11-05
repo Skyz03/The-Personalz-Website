@@ -11265,6 +11265,33 @@ span.number {
   border-radius: 5px;
   box-shadow: 0 2px 2px #495057;
 }
+.project_container .webContent_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.project_container .webContent_icons .wrapper {
+  color: #23e7c3;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  float: right;
+  cursor: pointer;
+}
+.project_container .webContent_icons .live {
+  position: relative;
+}
+.project_container .webContent_icons .live::before {
+  display: inline;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 1rem;
+  position: absolute;
+  left: 0;
+}
 
 .skill-section {
   background-color: #071e3d;
