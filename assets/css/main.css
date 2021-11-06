@@ -11293,6 +11293,13 @@ span.number {
   left: 2rem;
   top: 0.3rem;
 }
+.project_container .webContent_img a {
+  text-decoration: none;
+}
+.project_container .webContent_img .contentImg {
+  width: 100%;
+  height: auto;
+}
 
 .skill-section {
   background-color: #071e3d;
