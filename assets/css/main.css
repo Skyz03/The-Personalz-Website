@@ -11278,10 +11278,10 @@ span.number {
   float: right;
   cursor: pointer;
 }
-.project_container .webContent_icons .live {
+.project_container .webContent_icons .live_text {
   position: relative;
 }
-.project_container .webContent_icons .live::before {
+.project_container .webContent_icons .live_text::after {
   display: inline;
   content: "";
   height: 10px;
@@ -11290,7 +11290,8 @@ span.number {
   background-color: red;
   margin-left: 1rem;
   position: absolute;
-  left: 0;
+  left: 2rem;
+  top: 0.3rem;
 }
 
 .skill-section {

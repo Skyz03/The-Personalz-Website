@@ -25,6 +25,7 @@
       justify-content: space-between;
       align-items: center;
       position: relative;
+
       .wrapper {
         color: $prime_blue;
         font-size: 1.5rem;
@@ -33,10 +34,10 @@
         cursor: pointer;
       }
 
-      .live {
+      .live_text {
         position: relative;
 
-        &::before {
+        &::after {
           display: inline;
           content: "";
           height: 10px;
@@ -45,7 +46,8 @@
           background-color: red;
           margin-left: 1rem;
           position: absolute;
-          left: 0;
+          left: 2rem;
+          top: 0.3rem;
         }
       }
     }
