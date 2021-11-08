@@ -104,3 +104,19 @@
     color: $prime_blue;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .resume-section {
+    text-align: center;
+  }
+
+  .resume-wrap {
+    .icon {
+      display: none !important;
+    }
+  }
+
+  .text {
+    width: 100%;
+  }
+}
