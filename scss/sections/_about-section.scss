@@ -2,9 +2,11 @@
 
 // This is the about image
 .about-img {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
+  media-breakpoint-down(lg) {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
 }
 
 // This is the right content section
