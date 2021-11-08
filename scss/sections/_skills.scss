@@ -12,6 +12,14 @@
 .skill-items {
   padding: 2rem 2rem 5rem 2rem;
 
+  &-icon {
+    margin-top: 2rem;
+  }
+
+  &-icon:nth-child(1) {
+    margin-top: 0;
+  }
+
   .fa-html5 {
     color: #d84924;
   }
