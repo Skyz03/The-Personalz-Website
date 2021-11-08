@@ -2,14 +2,17 @@
 
 // This is the about image
 .about-img {
-  media-breakpoint-down(lg) {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-  }
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 // This is the right content section
+
+.heading-section h2,
+p {
+  text-align: center;
+}
 
 .heading-section h2 {
   font-weight: 700;
@@ -44,4 +47,13 @@ span.number {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+// Media Query
+@include media-breakpoint-up(lg) {
+  .about-img {
+    width: 85%;
+    height: 70%;
+    border-radius: 50%;
+  }
 }
