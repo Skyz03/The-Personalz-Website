@@ -94,3 +94,9 @@
     }
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .project_container {
+    margin-top: 1rem;
+  }
+}

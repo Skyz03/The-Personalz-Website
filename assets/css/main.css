@@ -11338,6 +11338,11 @@ p {
   text-align: center;
 }
 
+@media (max-width: 575.98px) {
+  .project_container {
+    margin-top: 1rem;
+  }
+}
 .skill-section {
   background-color: #071e3d;
 }
