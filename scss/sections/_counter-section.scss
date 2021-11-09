@@ -2,10 +2,11 @@
 
 .counter-section {
   &__box {
-    display: block;
+    display: flex;
     width: 100%;
     text-align: center;
     padding: 3rem 1rem;
+    justify-content: center;
   }
 
   .number {
@@ -13,5 +14,22 @@
     font-size: 2rem;
     display: block;
     color: $background;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .counter-section {
+    &__box {
+      padding: 1rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .counter-section {
+    &__box {
+      padding: 1rem;
+      margin-top: 1rem;
+    }
   }
 }

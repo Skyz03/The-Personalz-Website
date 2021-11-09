@@ -45,6 +45,13 @@ span.number {
 }
 
 // Media Query
+
+@include media-breakpoint-down(lg) {
+  .about-img {
+    height: 50%;
+  }
+}
+
 @include media-breakpoint-down(sm) {
   .about-img {
     width: 100%;

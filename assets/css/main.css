@@ -11248,6 +11248,11 @@ span.number {
   font-weight: 600;
 }
 
+@media (max-width: 991.98px) {
+  .about-img {
+    height: 50%;
+  }
+}
 @media (max-width: 575.98px) {
   .about-img {
     width: 100%;
@@ -11353,12 +11358,6 @@ p {
 .skill-items {
   padding: 2rem 2rem 5rem 2rem;
 }
-.skill-items-icon {
-  margin-top: 2rem;
-}
-.skill-items-icon:nth-child(1) {
-  margin-top: 0;
-}
 .skill-items .fa-html5 {
   color: #d84924;
 }
@@ -11381,6 +11380,14 @@ p {
   justify-content: center;
 }
 
+@media (max-width: 575.98px) {
+  .skill-items-icon {
+    margin-top: 2rem;
+  }
+  .skill-items-icon:nth-child(1) {
+    margin-top: 0;
+  }
+}
 .resume-section {
   padding: 7rem 0;
   background-color: #071e3d;
@@ -11511,16 +11518,29 @@ p {
 }
 
 .counter-section__box {
-  display: block;
+  display: flex;
   width: 100%;
   text-align: center;
   padding: 3rem 1rem;
+  justify-content: center;
 }
 .counter-section .number {
   font-weight: 600;
   font-size: 2rem;
   display: block;
   color: #071e3d;
+}
+
+@media (max-width: 991.98px) {
+  .counter-section__box {
+    padding: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .counter-section__box {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
