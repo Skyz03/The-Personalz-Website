@@ -95,6 +95,22 @@
   }
 }
 
+@include media-breakpoint-down(lg) {
+  .project_container {
+    .webContent {
+      &_text {
+        .project_title {
+          font-size: 1rem;
+        }
+        .project_description {
+          font-size: 0.8rem;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
 @include media-breakpoint-down(sm) {
   .project_container {
     margin-top: 1rem;

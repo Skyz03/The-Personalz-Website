@@ -11343,6 +11343,15 @@ p {
   text-align: center;
 }
 
+@media (max-width: 991.98px) {
+  .project_container .webContent_text .project_title {
+    font-size: 1rem;
+  }
+  .project_container .webContent_text .project_description {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 575.98px) {
   .project_container {
     margin-top: 1rem;
