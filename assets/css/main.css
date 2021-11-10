@@ -11314,8 +11314,8 @@ p {
   text-decoration: none;
 }
 .project_container .webContent_img .contentImg {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 150px;
 }
 .project_container .webContent_text {
   padding: 0.5rem;
