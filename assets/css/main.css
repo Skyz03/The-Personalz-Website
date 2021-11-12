@@ -11504,6 +11504,10 @@ p {
     width: 100%;
   }
 }
+.navbar {
+  padding: 0;
+}
+
 .brand_icon {
   font-family: "Akronim", cursive !important;
   font-size: 3rem;
