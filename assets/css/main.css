@@ -11267,6 +11267,7 @@ p {
 }
 .projects-section {
   background-color: #071e3d;
+  padding-bottom: 8rem;
 }
 .projects-section h2 {
   text-transform: uppercase;
@@ -11554,6 +11555,13 @@ p {
     padding: 1rem;
     margin-top: 1rem;
   }
+}
+.footer_section {
+  background: linear-gradient(to right, #071e3d, rgba(57, 62, 70, 0.8));
+}
+
+.footer-sm a {
+  padding: 0 0.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

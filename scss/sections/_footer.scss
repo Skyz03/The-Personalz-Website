@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.footer_section {
+  @include gradient;
+}
+
+.footer-sm {
+  a {
+    padding: 0 0.5rem;
+  }
+}
