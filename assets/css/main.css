@@ -11559,7 +11559,19 @@ p {
 .footer_section {
   background: linear-gradient(to right, #071e3d, rgba(57, 62, 70, 0.8));
 }
+@media (max-width: 575.98px) {
+  .footer_section {
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+}
 
+@media (max-width: 575.98px) {
+  .footer-sm {
+    padding-top: 1rem;
+    justify-content: center !important;
+  }
+}
 .footer-sm a {
   padding: 0 0.5rem;
 }
