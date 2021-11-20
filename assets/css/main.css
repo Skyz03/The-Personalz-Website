@@ -11299,7 +11299,7 @@ p {
 .project_container .webContent_icons .live_text {
   position: relative;
 }
-.project_container .webContent_icons .live_text::after {
+.project_container .webContent_icons .dot {
   display: inline;
   content: "";
   height: 10px;
@@ -11310,6 +11310,10 @@ p {
   position: absolute;
   left: 2rem;
   top: 0.3rem;
+  padding: 2px;
+}
+.project_container .webContent_icons .border {
+  border: 1px solid red;
 }
 .project_container .webContent_img a {
   text-decoration: none;
