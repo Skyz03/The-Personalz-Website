@@ -11119,6 +11119,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.378rem 0.975rem 1.25rem;
@@ -11346,6 +11356,23 @@ p {
   padding: 0.7rem;
   color: #adb5bd;
   text-align: center;
+}
+
+.border-animation {
+  position: absolute;
+  top: -1px;
+  left: 41px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--border-1 {
+  animation-delay: 1s;
+}
+.border-animation--border-2 {
+  animation-delay: 1.5s;
 }
 
 @media (max-width: 991.98px) {

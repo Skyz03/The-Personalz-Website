@@ -101,6 +101,25 @@
   }
 }
 
+.border-animation {
+  position: absolute;
+  top: -1px;
+  left: 41px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  animation: pulse-border 1.5s linear infinite;
+
+  &--border-1 {
+    animation-delay: 1s;
+  }
+
+  &--border-2 {
+    animation-delay: 1.5s;
+  }
+}
+
 @include media-breakpoint-down(lg) {
   .project_container {
     .webContent {
